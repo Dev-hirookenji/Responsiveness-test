@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #23233d;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border-radius: 10%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  border-radius: 1rem;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.text {
+  margin: 0 auto;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 100vw;
+  height: 500px;
+}
+label {
+  display: block;
+  padding-top: 20px;
+}
+.tex {
+  width: 400px;
+  padding: 10px 5px;
+  margin: 10px;
+  border: none;
+  border-bottom: 3px solid;
+  border-radius: 5px;
+  border-color: aquamarine;
+}
+.rad {
+  display: inline-flex;
+  padding: 1px;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .forms {
+    width: 70vw;
+  }
+  .forms .tex {
+    width: 300px;
+  }
+  .header {
+    width: 50vh;
+  }
+}
+.tex:hover {
+  box-shadow: 0px 0px 5px red;
+}
+.select:focus {
+  width: 600px;
+}
+.card:hover {
+  background-color: royalblue;
+  color: aliceblue;
+  box-shadow: 0px 0px 10px black;
+}
+img:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.rad:active {
+  color: red;
+}
+.header {
+  width: 60vw;
+  padding: 0 50px;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 30px;
+}
+h1 {
+  margin-bottom: 10px;
+}
